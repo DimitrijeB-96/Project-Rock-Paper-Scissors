@@ -45,7 +45,6 @@
 .computer-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .player-score,
