@@ -7,20 +7,25 @@
     <body>
         <div class="score-container">
             <p>Round: <span class="round-counter">0</span></p>
-            <p>Player score: <span class="player-score">0</span></p>
-            <p>Computer score: <span class="computer-score">0</span></p>
+            <div class="player-computer-score">
+                <p>Player score: <span class="player-score">0</span></p>
+                <p>Computer score: <span class="computer-score">0</span></p>
+            </div>
+        <div class="display-choice">
+            <p>Your choice: <span class="player-choice"></span></p>
+            <p>Computer choice: <span class="computer-choice"></span></p>
+            <p>Round winner: <span class="round-winner"></span></p>
+        </div>
         </div>
         <div class="button-container">
             <button class="btn" id="rock">Rock</button>
             <button class="btn" id="paper">Paper</button>
             <button class="btn" id="scissors">Scissors</button>
         </div>
-        <button class="reset">Reset</button>
-
-        <p class="winner"></p>
-
         <div class="result-container">
-            <p class="result"></p>
+            <button class="reset">Reset</button>
+            <p class="continue-playing"></p>
+            <p class="winner"></p>
         </div>
 
     <script src="javascript.js"></script>
